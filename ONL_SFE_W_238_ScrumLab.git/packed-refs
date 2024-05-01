@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+8291406e04d05f81a965ae06d32c64bacd634818 refs/heads/main
+bbfcdf96bb2b79c0250c7a470aa47db45fd7fc7b refs/heads/zadanie/1.5/form
+1942c323944e8e5dcf6760a06073963ed2a0c067 refs/heads/zadanie0.1/start
+1b4c56359a4dd7c58e512d22d7b2f5983f90fdaa refs/heads/zadanie1.2/karuzela
+7eaa8a8158988d1a29d47ecd8279ffd1929c4f62 refs/heads/zadanie1.3/call_to_action
+c176d10653fed43b62a6f84c8e87890971abd79f refs/heads/zadanie1.4/O_aplikacji
+89d74c5ab0dc5768717314df1b1cafaf98ed1671 refs/heads/zadanie1.6/about_me
+bc0a4f007b083ed6075d9e653b2ee155daaa79de refs/heads/zadanie2.1/Widok_glowny_aplikacji
+77373d3465cdbed560978cf7416e8efca8f32d7b refs/heads/zadanie2.2/message_and_form
+e59eda39e7f366b0920d3a0c3cd2ab48d44d1639 refs/heads/zadanie3.1/pulpit
+a5fc8f03b0deae4875f873454ae2ced916612288 refs/heads/zadanie3.2/pulpit_part_2

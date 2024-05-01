@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.cta-section {
+  width: 100%;
+  background-color: $header;
+  color: $background-screens;
+  padding: 40px 200px 40px 200px;
+  font-family: $font-open_sans;
+
+
+  .cta-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+  }
+
+  .cta-title {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .cta-text {
+    max-width: 61ch;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+ .cta-button {
+    width: 13rem;
+    height: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $buttons;
+    color: $background-screens;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1rem;
+
+    &:hover {
+      background-color: $buttons-hover;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+@media (max-width: 1450px) {
+  .cta-text {
+    margin-right: 50px;
+  }
+
+  .cta-button {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 960px) {
+  .cta-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-text, .cta-title, .cta-button {
+    text-align: center;
+    margin: 0;
+  }
+
+  .cta-button {
+    margin-top: 1rem;
+ }
+}

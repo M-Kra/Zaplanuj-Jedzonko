@@ -1,0 +1,82 @@
+.hidden {
+  opacity: 0;
+  position: absolute;
+}
+.app-notification {
+display: flex;
+flex-direction: column;
+font-family: $font-open_sans;
+font-weight: 600;
+text-shadow: 0.5px 0.5px 1px gray;
+padding-top: 40px;
+
+  .green-notification {
+    justify-content: space-between;
+    align-items: center;
+    width: 790px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    background-color: $background-screens;
+    border: 1px dashed;
+    color: $messages-success;
+  }
+
+  .orange-notification {
+    justify-content: space-between;
+    align-items: center;
+    width: 790px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    background-color: $background-screens;
+    border: 1px dashed;
+    color: $messages-warning;
+  }
+
+  .blue-notification {
+    justify-content: space-between;
+    align-items: center;
+    width: 790px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    background-color: $background-screens;
+    border: 1px dashed;
+    color: $messages-info;
+  }
+
+    .notification {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 790px;
+      height: 50px;
+      margin-bottom: 10px;
+      margin-right: 50px;
+      border: 1px dashed;
+
+      .notification-text {
+        flex-grow: 1;
+        font-size: 1.6rem;
+        margin-right: 20px;
+        margin-left: 5px;
+        color: inherit;
+      }
+
+      button {
+        background: none;
+        color: inherit;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-top: -20px;
+
+        i {
+          font-size: 1.2rem;
+          margin-right: -10px;
+          color: inherit;
+        }
+      }
+    }
+  }

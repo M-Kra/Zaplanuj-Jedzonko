@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+@import "elements/base";
+@import "../fonts/_fonts";
+@import "../scss/generic/_reset";
+@import "../scss/settings/_variables.scss";
+@import "../scss/elements/_call to action.scss";
+@import "elements/_o aplikacji.scss";
+@import "../scss/elements/_carousel.scss";
+@import "../scss/elements/about_me";
+@import "elements/_form.scss";
+@import "../scss/elements/desktop_widgets_part_1";
+@import "elements/message and form";
+@import "elements/app_dashboard_empty.scss";
+@import "elements/desktop_widgets_part_2";
+
+
+//@import "settings/_mixins.scss";
+
+body {
+  //background-color: #bada55;
+
+  width: 100%;
+}

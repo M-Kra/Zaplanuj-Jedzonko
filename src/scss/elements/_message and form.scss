@@ -1,0 +1,91 @@
+.message-form {
+  width: 100%;
+  height: 78vh;
+  border: 1px dashed black;
+  font-family: $font-open_sans;
+  background-color: $background-screens;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.message-form {
+  &.hidden {
+    display: none;
+  }
+}
+
+.message-title {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $side-panel;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.message-title-1 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+  color: $side-panel;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+#text {
+  width: 19.9rem;
+  height: 2rem;
+  margin-bottom: 20px;
+}
+
+.message-button {
+  width: 10rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color: $buttons;
+  color: $background-screens;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.5s linear;
+  text-decoration: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+  .message-button:hover {
+    background-color: $buttons-hover;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.message-text {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+  color: $side-panel;
+
+}
+
+@media (max-width: 700px) {
+  .message-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .message-title-1 {
+    text-align: center;
+  }
+}

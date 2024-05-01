@@ -1,0 +1,91 @@
+.header-logo-app {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 100vh;
+  background-color: $header;
+  padding: 1rem 3%;
+  height: 110px;
+
+
+  @media screen and (max-width: 760px){
+    flex-direction: column;
+    height: auto;
+    //padding: 1rem;
+  }
+
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+h1{
+  font-family: $font-charmonman;
+  text-decoration: none;
+}
+
+#first{
+  font-size: 35px;
+  font-weight:100;
+  color: white;
+}
+#second{
+  color:#E58A20;
+  font-size: 35px;
+  font-weight: 700;
+  @media screen and (max-width: 760px) {
+    margin-top: 20px;
+  }
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1.6rem;
+
+  @media screen and (max-width: 760px){
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}
+
+.user-name{
+  color: white;
+  font-size: 20px;
+  font-family: $font-open_sans
+}
+.fa-user-circle{
+  color: $buttons;
+  font-size: 40px;
+  padding: 0 20px;
+}
+.sidebar-right {
+  background-color: $header;
+  width: 8rem;
+  height: 800px;
+  ul {
+    list-style: none;
+  }
+    li {
+      padding: 25px;
+      a{
+        text-decoration: none;
+        color: $background-screens;
+        font-family: $font-open_sans;
+        font-weight: bold;
+      }
+    }
+}
+
+li:hover {
+  border-left: 3px solid $buttons;
+  font-weight: 600;
+
+}
+
+.container-app {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
