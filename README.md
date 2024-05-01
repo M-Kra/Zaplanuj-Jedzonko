@@ -1,0 +1,1 @@
+Repozytorium stworzone na potrzeby nauki i eksperymentowania
